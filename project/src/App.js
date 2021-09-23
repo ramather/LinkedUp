@@ -14,6 +14,9 @@ function App() {
   return (
   <Router>
     <Switch>
+      <Route path="">
+        <LandingPage/>
+      </Route>
       <Route path="/home">
         <LandingPage/>
       </Route>
