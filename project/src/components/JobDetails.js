@@ -4,8 +4,8 @@ import "../index.css";
 const JobDetails = ({text, title, link}) => {
     return (
         <div>
-        <h1>{title}</h1>
-
+        <h2>{title}</h2>
+        <br/>
         <br/>
         <a href={link}> Link </a>
         <br/>

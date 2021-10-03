@@ -32,7 +32,7 @@ const Body = () => {
       >
         {file.default.map((el) => (
           <JobPrevComp
-            style={{ borderRadius: "5px" }}
+            style={{ borderRadius: "10px" }}
             el={el}
             setLink={setLink}
             setText={setText}
